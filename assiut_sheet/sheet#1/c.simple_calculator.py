@@ -1,0 +1,7 @@
+x, y = input().split()
+summation = int(x) + int(y)
+multiplication = int(x) * int(y)
+subtraction = int(x) - int(y)
+print(f"{x} + {y} = {summation}")
+print(f"{x} * {y} = {multiplication}")
+print(f"{x} - {y} = {subtraction}")
