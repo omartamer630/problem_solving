@@ -17,12 +17,14 @@ vector<bool> sieve(int n){
 }
 //-----------------------------------------------------------------------------------------------------------------------------------
 
+
+
 int main()
 {
     std::ios::sync_with_stdio(false);
     std::cin.tie(NULL);
    int t; cin>>t; int N=1;
-   vector<bool> is_prime = sieve(2000);
+   
    while(t--){
     string s; cin>>s;
    map<char,int>mp;
